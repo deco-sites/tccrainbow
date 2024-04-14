@@ -1,7 +1,5 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
 
-export interface Post {
+interface Post {
   title: string;
   author: string;
   excerpt: string;
@@ -71,7 +69,7 @@ export default function BlogPosts({
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           {posts?.map((post) => (
-            <div class="border border-secondary rounded-lg overflow-hidden">
+            <div class="border border-secondary rounded-lg overflow-hidden bg-green-200"> {/* added bg-green-200 for fancy green */}
               <Image
                 width={640}
                 class="w-full object-fit z-10"

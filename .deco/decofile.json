@@ -262,6 +262,19 @@
     "path": "/",
     "sections": [
       {
+        "__resolveType": "site/sections/Faq.tsx",
+        "persons": [
+          {
+            "name": "Nathan Luiz Bezerra Martins",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/812cda83-22fa-4c97-bcb5-b7430baa959a"
+          },
+          {
+            "name": "Willian Miura Mori",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/c00dcf29-aa08-4773-8dc8-a622ad2e44df"
+          }
+        ]
+      },
+      {
         "__resolveType": "site/sections/Header.tsx"
       },
       {
@@ -283,9 +296,6 @@
       },
       {
         "__resolveType": "site/sections/Testimonials.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
       },
       {
         "__resolveType": "site/sections/Footer.tsx"
@@ -326,5 +336,15 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "WhoAreWe.tsx": {
+    "__resolveType": "site/sections/BlogPosts.tsx",
+    "posts": []
+  },
+  "Preview site/sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx"
+  },
+  "Preview site/sections/Faq.tsx": {
+    "__resolveType": "site/sections/Faq.tsx"
   }
 }
