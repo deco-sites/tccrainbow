@@ -7,8 +7,8 @@ export interface Person {
 }
 
 export interface Props {
-  person?: Person;
-  description?: string;
+  person: Person;
+  description: string;
   invertImage?: boolean;
 }
 

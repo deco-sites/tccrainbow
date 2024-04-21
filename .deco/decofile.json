@@ -321,7 +321,7 @@
         "__resolveType": "Preview /sections/Proposal.tsx"
       },
       {
-        "__resolveType": "WhoAmI"
+        "__resolveType": "Preview /sections/IAmMori.tsx"
       },
       {
         "__resolveType": "WhoAreWe.tsx"
@@ -368,6 +368,24 @@
   },
   "Preview /sections/Proposal.tsx": {
     "__resolveType": "site/sections/Proposal.tsx",
-    "texto": "Mais recentemente, na teoria dos grafos têm surgido teoremas que são versões rainbow de alguns teoremas clássicos bem conhecidos. Por exemplo, o Teorema de Dirac (de 1952)  afirma que todo grafo de ordem n > 2 cujo grau mínimo é pelo menos n/2 tem um ciclo hamiltoniano.  Em 2020, Joos e Kim  [Bull. London Math. Soc.] provaram a seguinte versão rainbow do  Teorema de Dirac: dada uma coleção G = {G_1, G_2, ..., G_n} de n grafos não necessariamente distintos,  todos eles sobre um mesmo conjunto V de n vértices, tal que cada G_i tem grau mínimo pelo menos n/2,  então existe uma G-transversal que é um ciclo hamiltoniano sobre V.  Ou seja, existe uma bijeção f entre as n arestas de tal ciclo e {1, 2, ...,n} tal que para cada aresta $e$   desse ciclo temos que $e \\in E(G_{f(e)}$.   Se considerarmos que cada grafo G_i  tem todas suas arestas coloridas com uma mesma cor i,  e que a coleção G usa n cores distintas,  então uma  G-transversal  que é um ciclo hamiltoniano   tem arestas com cores de 1 a n (em alguma ordem), o que justifica a denominação rainbow.   A prova apresentada por Joos e Kim não é algorítmica. Temos interesse em analisar  a possibilidade de projetar um algoritmo baseado nessa prova teórica; e se isto for possível, implementar tal algoritmo. Temos interesse em estudar versões rainbow de outros teoremas  clássicos, e quando possível, implementar algoritmos baseados nessas provas teóricas. "
+    "description": "Mais recentemente, na teoria dos grafos têm surgido teoremas que são versões rainbow de alguns teoremas clássicos bem conhecidos. Por exemplo, o Teorema de Dirac (de 1952)  afirma que todo grafo de ordem n > 2 cujo grau mínimo é pelo menos n/2 tem um ciclo hamiltoniano.  Em 2020, Joos e Kim  [Bull. London Math. Soc.] provaram a seguinte versão rainbow do  Teorema de Dirac: dada uma coleção G = {G_1, G_2, ..., G_n} de n grafos não necessariamente distintos,  todos eles sobre um mesmo conjunto V de n vértices, tal que cada G_i tem grau mínimo pelo menos n/2,  então existe uma G-transversal que é um ciclo hamiltoniano sobre V.  Ou seja, existe uma bijeção f entre as n arestas de tal ciclo e {1, 2, ...,n} tal que para cada aresta $e$   desse ciclo temos que $e \\in E(G_{f(e)}$.   Se considerarmos que cada grafo G_i  tem todas suas arestas coloridas com uma mesma cor i,  e que a coleção G usa n cores distintas,  então uma  G-transversal  que é um ciclo hamiltoniano   tem arestas com cores de 1 a n (em alguma ordem), o que justifica a denominação rainbow.   A prova apresentada por Joos e Kim não é algorítmica. Temos interesse em analisar  a possibilidade de projetar um algoritmo baseado nessa prova teórica; e se isto for possível, implementar tal algoritmo. Temos interesse em estudar versões rainbow de outros teoremas  clássicos, e quando possível, implementar algoritmos baseados nessas provas teóricas. ",
+    "title": "Proposta"
+  },
+  "Preview /sections/IAmMori.tsx": {
+    "__resolveType": "site/sections/IAmMori.tsx",
+    "person": {
+      "name": "Willian Miura Mori",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/30642e85-505a-4815-b845-198f36051d0e"
+    },
+    "description": "Sou computeiro"
+  },
+  "Preview /sections/SouMori.tsx": {
+    "__resolveType": "site/sections/SouMori.tsx"
+  },
+  "Preview /sections/IAmNathan.tsx": {
+    "__resolveType": "site/sections/IAmNathan.tsx"
+  },
+  "Preview /sections/IAmYoshiko.tsx": {
+    "__resolveType": "site/sections/IAmYoshiko.tsx"
   }
 }
