@@ -20,7 +20,9 @@ export default function BlogPosts({
 }: Props) {
   return (
     <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
-      <div class="space-y-16 gap-5 flex flex-row">
+      <div class="space-y-16 gap-5">
+        <div class="flex flex-col lg:flex-row gap-4 justify-between">
+        </div>
         <div class="flex flex-row gap-5 justify-center">
           {persons?.map((person) => (
             <div class="border border-secondary rounded-lg overflow-hidden">

@@ -48,6 +48,10 @@
     "__resolveType": "website/matchers/device.ts",
     "mobile": true
   },
+  "My Block": {
+    "__resolveType": "site/sections/BlogPosts.tsx",
+    "posts": []
+  },
   "Neutral": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
     "buttonStyle": {
@@ -85,6 +89,9 @@
       ]
     }
   },
+  "Preview /sections/BlogPosts.tsx": {
+    "__resolveType": "site/sections/BlogPosts.tsx"
+  },
   "Preview /sections/Faq.tsx": {
     "__resolveType": "site/sections/Faq.tsx"
   },
@@ -101,15 +108,40 @@
     "cta": [],
     "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
   },
+  "Preview /sections/WhoAmI.tsx": {
+    "__resolveType": "site/sections/WhoAmI.tsx",
+    "person": {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/30642e85-505a-4815-b845-198f36051d0e",
+      "name": "a"
+    },
+    "description": "Sou um computeiroSou um computeiroSou um computeiroSou um computeiro",
+    "invertImage": false
+  },
   "Preview /sections/hero-1.tsx": {
     "__resolveType": "site/sections/hero-1.tsx"
   },
   "Preview /sections/hero-2.tsx": {
     "__resolveType": "site/sections/hero-2.tsx"
   },
+  "Preview /sections/orientador.tsx": {
+    "__resolveType": "site/sections/orientador.tsx",
+    "persons": [
+      {
+        "name": "Yoshiko Wakabayashi",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/f5a1c6a5-b14e-480a-af15-714304b53352"
+      }
+    ],
+    "description": "Professora titular do Instituto de Matemática e Estatística da USP com foco em pesquisa em Combinatorial Optimization and Combinatorics and Graph Theory."
+  },
   "Preview Sections MyHero": {
     "name": "works!",
     "__resolveType": "site/sections/myHero.tsx"
+  },
+  "Preview site/sections/Faq.tsx": {
+    "__resolveType": "site/sections/Faq.tsx"
+  },
+  "Preview site/sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx"
   },
   "Serene Coastline": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -222,6 +254,24 @@
       ]
     }
   },
+  "WhoAmI": {
+    "__resolveType": "Preview /sections/WhoAmI.tsx"
+  },
+  "WhoAreWe.tsx": {
+    "__resolveType": "site/sections/BlogPosts.tsx",
+    "posts": [],
+    "persons": [
+      {
+        "name": "Nathan Luiz Bezerra Martins",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/739de75d-79f0-4b90-b32d-a30d9f2637c9"
+      },
+      {
+        "name": "Willian Miura Mori",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/30642e85-505a-4815-b845-198f36051d0e"
+      }
+    ],
+    "description": "We are computer science students from university of São Paulo passionate about competitive programming and computer science theory."
+  },
   "app-decohub%2Fapps%2Fhtmx.ts": {
     "__resolveType": "decohub/apps/htmx.ts",
     "version": "1.9.11"
@@ -262,43 +312,19 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "site/sections/Faq.tsx",
-        "persons": [
-          {
-            "name": "Nathan Luiz Bezerra Martins",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/812cda83-22fa-4c97-bcb5-b7430baa959a"
-          },
-          {
-            "name": "Willian Miura Mori",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/c00dcf29-aa08-4773-8dc8-a622ad2e44df"
-          }
-        ]
+        "__resolveType": "site/sections/Header.tsx",
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/6833/c2aaaebc-0846-4f5a-b719-ab96a7085eee"
+        }
       },
       {
-        "__resolveType": "site/sections/Header.tsx"
+        "__resolveType": "WhoAmI"
       },
       {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "Landing",
-        "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/43999173-3786-4a4b-be09-5d7313d0bc3b"
+        "__resolveType": "WhoAreWe.tsx"
       },
       {
-        "__resolveType": "site/sections/Hero.tsx",
-        "cta": [],
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Footer.tsx"
+        "__resolveType": "Preview /sections/orientador.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -336,15 +362,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "WhoAreWe.tsx": {
-    "__resolveType": "site/sections/BlogPosts.tsx",
-    "posts": []
-  },
-  "Preview site/sections/Header.tsx": {
-    "__resolveType": "site/sections/Header.tsx"
-  },
-  "Preview site/sections/Faq.tsx": {
-    "__resolveType": "site/sections/Faq.tsx"
   }
 }
